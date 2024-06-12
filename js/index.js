@@ -11,7 +11,6 @@ function sumar(){
 }
 
 function restar(){
-    debugger
     const numeroActual = parseInt(resultado.innerHTML);
     if((numeroActual-1) < 1){
         resta.setAttribute("disabled", "true");
